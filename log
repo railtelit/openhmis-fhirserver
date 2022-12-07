@@ -1,0 +1,210 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.2)
+
+2022-05-20 07:52:13.429 [background-preinit] INFO  o.h.validator.internal.util.Version [Version.java:21] HV000001: Hibernate Validator 6.1.5.Final
+2022-05-20 07:52:13.479 [main] INFO  ca.uhn.fhir.jpa.starter.Application [StartupInfoLogger.java:55] Starting Application using Java 17.0.2 on fe16615f10bf with PID 1 (/app/main.war started by nonroot in /app)
+2022-05-20 07:52:13.480 [main] INFO  ca.uhn.fhir.jpa.starter.Application [SpringApplication.java:635] No active profile set, falling back to default profiles: default
+2022-05-20 07:52:14.320 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-20 07:52:14.624 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 292 ms. Found 51 JPA repository interfaces.
+2022-05-20 07:52:15.652 [main] INFO  ca.uhn.fhir.util.VersionUtil [VersionUtil.java:84] HAPI FHIR version 5.7.0 - Rev 0f1a306b58
+2022-05-20 07:52:15.660 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:208] Creating new FHIR context for FHIR version [R4]
+2022-05-20 07:52:15.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'fhirContextR4' of type [ca.uhn.fhir.context.FhirContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:15.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'myDaoRegistry' of type [ca.uhn.fhir.jpa.api.dao.DaoRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:15.914 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:15.949 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:15.967 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:15.988 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration' of type [org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:15.992 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'jobLauncher' of type [jdk.proxy2.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:16.022 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'appProperties' of type [ca.uhn.fhir.jpa.starter.AppProperties$$EnhancerBySpringCGLIB$$1fa299f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:16.023 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'fhirServerConfigR4' of type [ca.uhn.fhir.jpa.starter.FhirServerConfigR4$$EnhancerBySpringCGLIB$$ecedeb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 07:52:16.390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-20 07:52:16.401 [main] INFO  o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-20 07:52:16.401 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-20 07:52:16.402 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-05-20 07:52:21.578 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-20 07:52:21.578 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 8020 ms
+2022-05-20 07:52:21.618 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:39] Server configured to allow contains searches
+2022-05-20 07:52:21.618 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:40] Server configured to deny multiple deletes
+2022-05-20 07:52:21.618 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:41] Server configured to deny external references
+2022-05-20 07:52:21.618 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:42] Server configured to disable delete expunges
+2022-05-20 07:52:21.618 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:43] Server configured to enable expunges
+2022-05-20 07:52:21.618 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:44] Server configured to allow overriding default search params
+2022-05-20 07:52:21.619 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:45] Server configured to disable auto-creating placeholder references
+2022-05-20 07:52:21.655 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:95] Server configured to have a maximum fetch size of 'unlimited'
+2022-05-20 07:52:21.655 [main] INFO  c.u.f.j.s.FhirServerConfigCommon [FhirServerConfigCommon.java:99] Server configured to cache search results for -1 milliseconds
+2022-05-20 07:52:22.290 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:123] Creating Local Scheduler
+2022-05-20 07:52:22.328 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1220] Using default implementation for ThreadExecutor
+2022-05-20 07:52:22.343 [main] INFO  o.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-20 07:52:22.343 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.2 created.
+2022-05-20 07:52:22.344 [main] INFO  org.quartz.simpl.RAMJobStore [RAMJobStore.java:155] RAMJobStore initialized.
+2022-05-20 07:52:22.345 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'hapi-fhir-jpa-scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-20 07:52:22.345 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1374] Quartz scheduler 'hapi-fhir-jpa-scheduler' initialized from an externally provided properties instance.
+2022-05-20 07:52:22.345 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1378] Quartz scheduler version: 2.3.2
+2022-05-20 07:52:22.346 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: ca.uhn.fhir.jpa.sched.AutowiringSpringBeanJobFactory@1abc9f14
+2022-05-20 07:52:22.346 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:585] Scheduler hapi-fhir-jpa-scheduler_$_NON_CLUSTERED paused.
+2022-05-20 07:52:22.346 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:120] Creating Clustered Scheduler
+2022-05-20 07:52:22.347 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1220] Using default implementation for ThreadExecutor
+2022-05-20 07:52:22.348 [main] INFO  o.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-20 07:52:22.348 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.2 created.
+2022-05-20 07:52:22.348 [main] INFO  org.quartz.simpl.RAMJobStore [RAMJobStore.java:155] RAMJobStore initialized.
+2022-05-20 07:52:22.348 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'hapi-fhir-jpa-scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-20 07:52:22.348 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1374] Quartz scheduler 'hapi-fhir-jpa-scheduler' initialized from an externally provided properties instance.
+2022-05-20 07:52:22.348 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1378] Quartz scheduler version: 2.3.2
+2022-05-20 07:52:22.349 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: ca.uhn.fhir.jpa.sched.AutowiringSpringBeanJobFactory@1abc9f14
+2022-05-20 07:52:22.349 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:585] Scheduler hapi-fhir-jpa-scheduler_$_NON_CLUSTERED paused.
+2022-05-20 07:52:22.426 [main] INFO  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:95] HikariPool-1 - Starting...
+2022-05-20 07:52:22.674 [main] INFO  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:107] HikariPool-1 - Start completed.
+2022-05-20 07:52:22.797 [main] INFO  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: HAPI_PU]
+2022-05-20 07:52:22.905 [main] INFO  org.hibernate.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.6.2.Final
+2022-05-20 07:52:23.129 [main] INFO  o.h.annotations.common.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-20 07:52:23.302 [main] INFO  org.hibernate.dialect.Dialect [Dialect.java:175] HHH000400: Using dialect: ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgres94Dialect
+2022-05-20 07:52:23.980 [main] INFO  o.h.s.m.o.b.i.HibernateSearchIntegrator [HibernateSearchIntegrator.java:65] HSEARCH000034: Hibernate Search version 6.0.3.Final
+2022-05-20 07:52:24.948 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.948 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_blkex_job_id" of relation "hfj_blk_export_job" does not exist, skipping
+2022-05-20 07:52:24.951 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.951 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_blkim_job_id" of relation "hfj_blk_import_job" does not exist, skipping
+2022-05-20 07:52:24.956 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.956 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_forcedid_resid" of relation "hfj_forced_id" does not exist, skipping
+2022-05-20 07:52:24.959 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.959 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_forcedid_type_fid" of relation "hfj_forced_id" does not exist, skipping
+2022-05-20 07:52:24.963 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.963 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_reshisttag_tagid" of relation "hfj_history_tag" does not exist, skipping
+2022-05-20 07:52:24.970 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.970 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_idxcmpstruniq_string" of relation "hfj_idx_cmp_string_uniq" does not exist, skipping
+2022-05-20 07:52:24.973 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.973 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_part_name" of relation "hfj_partition" does not exist, skipping
+2022-05-20 07:52:24.982 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.982 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_restag_tagid" of relation "hfj_res_tag" does not exist, skipping
+2022-05-20 07:52:24.989 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:24.989 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_resver_id_ver" of relation "hfj_res_ver" does not exist, skipping
+2022-05-20 07:52:25.002 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.002 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_search_uuid" of relation "hfj_search" does not exist, skipping
+2022-05-20 07:52:25.004 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.004 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_searchres_order" of relation "hfj_search_result" does not exist, skipping
+2022-05-20 07:52:25.064 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.064 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_subsc_resid" of relation "hfj_subscription_stats" does not exist, skipping
+2022-05-20 07:52:25.066 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.067 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_tagdef_typesyscode" of relation "hfj_tag_def" does not exist, skipping
+2022-05-20 07:52:25.069 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.069 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_empi_person_tgt" of relation "mpi_link" does not exist, skipping
+2022-05-20 07:52:25.072 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.072 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_pack_id" of relation "npm_package" does not exist, skipping
+2022-05-20 07:52:25.075 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.075 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_packver" of relation "npm_package_ver" does not exist, skipping
+2022-05-20 07:52:25.079 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.079 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_cs_codesystem" of relation "trm_codesystem" does not exist, skipping
+2022-05-20 07:52:25.081 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.082 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_codesystem_and_ver" of relation "trm_codesystem_ver" does not exist, skipping
+2022-05-20 07:52:25.087 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.087 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_concept_cs_code" of relation "trm_concept" does not exist, skipping
+2022-05-20 07:52:25.091 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.092 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_concept_map_url" of relation "trm_concept_map" does not exist, skipping
+2022-05-20 07:52:25.103 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.103 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_valueset_url" of relation "trm_valueset" does not exist, skipping
+2022-05-20 07:52:25.105 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.105 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_vs_concept_cscd" of relation "trm_valueset_concept" does not exist, skipping
+2022-05-20 07:52:25.108 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:230] SQL Warning Code: 0, SQLState: 00000
+2022-05-20 07:52:25.108 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:231] constraint "idx_vs_concept_order" of relation "trm_valueset_concept" does not exist, skipping
+2022-05-20 07:52:25.232 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-20 07:52:25.243 [main] INFO  c.u.f.j.c.HapiFhirLocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'HAPI_PU'
+2022-05-20 07:52:26.028 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling local job ca.uhn.fhir.jpa.cache.ResourceChangeListenerCacheRefresherImpl with interval 00:00:10.000
+2022-05-20 07:52:26.144 [main] INFO  c.u.f.c.s.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:327] Loading structure definitions from classpath: /org/hl7/fhir/r4/model/profile/profiles-resources.xml
+2022-05-20 07:52:26.177 [main] INFO  ca.uhn.fhir.util.XmlUtil [DependencyLogImpl.java:75] FHIR XML procesing will use StAX implementation 'Woodstox' version '6.2.5'
+2022-05-20 07:52:26.820 [main] INFO  c.u.f.c.s.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:327] Loading structure definitions from classpath: /org/hl7/fhir/r4/model/profile/profiles-types.xml
+2022-05-20 07:52:26.864 [main] INFO  c.u.f.c.s.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:327] Loading structure definitions from classpath: /org/hl7/fhir/r4/model/profile/profiles-others.xml
+2022-05-20 07:52:27.027 [main] INFO  c.u.f.c.s.DefaultProfileValidationSupport [DefaultProfileValidationSupport.java:327] Loading structure definitions from classpath: /org/hl7/fhir/r4/model/extension/extension-definitions.xml
+2022-05-20 07:52:27.863 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling local job ca.uhn.fhir.jpa.term.TermDeferredStorageSvcImpl$Job with interval 5000ms
+2022-05-20 07:52:27.991 [main] INFO  org.hibernate.dialect.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-20 07:52:27.996 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling clustered job ca.uhn.fhir.jpa.term.TermReadSvcR4 with interval 00:10:00
+2022-05-20 07:52:28.226 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling local job ca.uhn.fhir.jpa.util.ResourceCountCache with interval 00:10:00
+2022-05-20 07:52:28.323 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling clustered job ca.uhn.fhir.jpa.search.reindex.ResourceReindexingSvcImpl with interval 00:00:10.000
+2022-05-20 07:52:28.522 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:208] Creating new FHIR context for FHIR version [R5]
+2022-05-20 07:52:28.651 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling clustered job ca.uhn.fhir.jpa.bulk.export.svc.BulkDataExportSvcImpl$Job with interval 00:00:10.000
+2022-05-20 07:52:28.652 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling clustered job ca.uhn.fhir.jpa.bulk.export.svc.BulkDataExportSvcImpl$PurgeExpiredFilesJob with interval 01:00:00
+2022-05-20 07:52:28.836 [main] INFO  c.u.f.m.r.config.MdmRuleValidator [MdmRuleValidator.java:115] Validating MDM types [Patient, Practitioner]
+2022-05-20 07:52:32.442 [main] INFO  c.u.f.j.s.r.JpaSearchParamCache [JpaSearchParamCache.java:147] Have 0 unique search params
+2022-05-20 07:52:32.442 [main] INFO  c.u.f.m.r.config.MdmRuleValidator [MdmRuleValidator.java:132] Validating search parameters [ca.uhn.fhir.mdm.rules.json.MdmResourceSearchParamJson@55854382, ca.uhn.fhir.mdm.rules.json.MdmResourceSearchParamJson@7843b65e, ca.uhn.fhir.mdm.rules.json.MdmResourceSearchParamJson@4d6f951a]
+2022-05-20 07:52:32.443 [main] INFO  c.u.f.m.r.config.MdmRuleValidator [MdmRuleValidator.java:159] Validating match fields [ca.uhn.fhir.mdm.rules.json.MdmFieldMatchJson@6ade4ac6, ca.uhn.fhir.mdm.rules.json.MdmFieldMatchJson@fcae085]
+2022-05-20 07:52:32.445 [main] INFO  c.u.f.m.r.config.MdmRuleValidator [MdmRuleValidator.java:251] Validating system URI http://company.io/fhir/NamingSystem/custom-eid-system
+2022-05-20 07:52:32.556 [main] WARN  o.s.b.c.l.AbstractListenerFactoryBean [AbstractListenerFactoryBean.java:228] org.springframework.batch.item.ItemProcessor is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-05-20 07:52:32.602 [main] INFO  o.s.b.web.servlet.RegistrationBean [DynamicRegistrationBean.java:110] Servlet dispatcherServlet was not registered (possibly already registered?)
+2022-05-20 07:52:32.689 [main] INFO  ca.uhn.fhir.log.mdm_troubleshooting [MdmQueueConsumerLoader.java:62] MDM Matching Consumer subscribed to Matching Channel ca.uhn.fhir.jpa.subscription.channel.impl.LinkedBlockingChannel with name empi
+2022-05-20 07:52:32.709 [main] INFO  c.u.f.j.s.s.i.SubscriptionSubmitInterceptorLoader [SubscriptionSubmitInterceptorLoader.java:56] Registering subscription matcher interceptor
+2022-05-20 07:52:32.720 [main] INFO  ca.uhn.fhir.log.mdm_troubleshooting [MdmSubmitterInterceptorLoader.java:60] MDM interceptor registered
+2022-05-20 07:52:32.720 [main] INFO  c.u.f.j.s.s.i.SubscriptionSubmitInterceptorLoader [SubscriptionSubmitInterceptorLoader.java:56] Registering subscription matcher interceptor
+2022-05-20 07:52:32.763 [main] WARN  o.s.b.c.l.AbstractListenerFactoryBean [AbstractListenerFactoryBean.java:228] org.springframework.batch.item.ItemWriter is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-05-20 07:52:32.764 [main] WARN  o.s.b.c.l.AbstractListenerFactoryBean [AbstractListenerFactoryBean.java:228] org.springframework.batch.item.ItemWriter is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-05-20 07:52:32.789 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:208] Creating new FHIR context for FHIR version [R4]
+2022-05-20 07:52:32.794 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling local job ca.uhn.fhir.jpa.term.TermReindexingSvcImpl with interval 00:01:00.000
+2022-05-20 07:52:32.800 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer [DefaultBatchConfigurer.java:63] No transaction manager was provided, using a DataSourceTransactionManager
+2022-05-20 07:52:32.828 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling clustered job ca.uhn.fhir.jpa.search.StaleSearchDeletingSvcImpl with interval 00:00:10.000
+2022-05-20 07:52:32.834 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling clustered job ca.uhn.fhir.jpa.search.warm.CacheWarmingSvcImpl with interval 00:00:10.000
+2022-05-20 07:52:32.923 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-20 07:52:33.974 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1220] Using default implementation for ThreadExecutor
+2022-05-20 07:52:33.976 [main] INFO  o.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-20 07:52:33.976 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.2 created.
+2022-05-20 07:52:33.976 [main] INFO  org.quartz.simpl.RAMJobStore [RAMJobStore.java:155] RAMJobStore initialized.
+2022-05-20 07:52:33.976 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-20 07:52:33.976 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1374] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-05-20 07:52:33.976 [main] INFO  org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java:1378] Quartz scheduler version: 2.3.2
+2022-05-20 07:52:33.976 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6c65c6f0
+2022-05-20 07:52:33.985 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java:106] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-20 07:52:34.097 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:151] Starting task schedulers for context application
+2022-05-20 07:52:34.097 [main] INFO  c.u.fhir.jpa.sched.BaseHapiScheduler [BaseHapiScheduler.java:125] Starting scheduler hapi-fhir-jpa-scheduler-local
+2022-05-20 07:52:34.097 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:547] Scheduler hapi-fhir-jpa-scheduler_$_NON_CLUSTERED started.
+2022-05-20 07:52:34.098 [main] INFO  c.u.fhir.jpa.sched.BaseHapiScheduler [BaseHapiScheduler.java:125] Starting scheduler hapi-fhir-jpa-scheduler-clustered
+2022-05-20 07:52:34.098 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:547] Scheduler hapi-fhir-jpa-scheduler_$_NON_CLUSTERED started.
+2022-05-20 07:52:34.098 [main] INFO  o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-20 07:52:34.201 [main] INFO  c.u.f.j.s.BaseSchedulerServiceImpl [BaseSchedulerServiceImpl.java:204] Scheduling local job ca.uhn.fhir.jpa.subscription.triggering.SubscriptionTriggeringSvcImpl with interval 5000ms
+2022-05-20 07:52:34.202 [main] INFO  c.u.f.j.starter.BaseJpaRestfulServer [BaseJpaRestfulServer.java:285] CORS is enabled on this server
+2022-05-20 07:52:34.203 [main] INFO  c.u.f.j.starter.BaseJpaRestfulServer [BaseJpaRestfulServer.java:298] CORS allows the following origins: *
+2022-05-20 07:52:34.213 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:208] Creating new FHIR context for FHIR version [R4]
+2022-05-20 07:52:34.285 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1351] Initializing HAPI FHIR restful server running in R4 mode
+2022-05-20 07:52:34.286 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1723] Added 147 resource provider(s). Total 147
+2022-05-20 07:52:34.534 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1729] Added 4 plain provider(s). Total 4
+2022-05-20 07:52:34.564 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1399] A FHIR has been lit on this server
+2022-05-20 07:52:34.565 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-20 07:52:34.565 [main] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-20 07:52:39.990 [main] INFO  ca.uhn.fhir.jpa.mdm.config.MdmLoader [MdmLoader.java:54] MDM provider registered
+2022-05-20 07:52:40.008 [main] INFO  ca.uhn.fhir.log.mdm_troubleshooting [MdmSubscriptionLoader.java:95] Creating subsription mdm-Patient
+2022-05-20 07:52:40.190 [main] INFO  c.u.f.j.s.u.S.SUBS1 [SubscriptionDebugLogInterceptor.java:167] Resource Subscription/mdm-Patient/_history/1 was submitted to the processing pipeline (op=CREATE)
+2022-05-20 07:52:40.225 [main] INFO  ca.uhn.fhir.log.mdm_troubleshooting [MdmSubscriptionLoader.java:95] Creating subsription mdm-Practitioner
+2022-05-20 07:52:40.234 [main] INFO  c.u.f.j.s.u.S.SUBS1 [SubscriptionDebugLogInterceptor.java:167] Resource Subscription/mdm-Practitioner/_history/1 was submitted to the processing pipeline (op=CREATE)
+2022-05-20 07:52:40.244 [main] INFO  ca.uhn.fhir.jpa.mdm.config.MdmLoader [MdmLoader.java:57] MDM subscriptions updated
+2022-05-20 07:52:40.245 [main] INFO  c.u.f.j.s.m.m.s.MatchingQueueSubscriberLoader [MatchingQueueSubscriberLoader.java:56] Subscription Matching Subscriber subscribed to Matching Channel ca.uhn.fhir.jpa.subscription.channel.subscription.BroadcastingSubscribableChannelWrapper with name subscription-matching
+2022-05-20 07:52:40.247 [main] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 5681 ms
+2022-05-20 07:52:40.248 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-20 07:52:40.248 [main] INFO  o.s.s.quartz.SchedulerFactoryBean [SchedulerFactoryBean.java:729] Starting Quartz Scheduler now
+2022-05-20 07:52:40.249 [main] INFO  org.quartz.core.QuartzScheduler [QuartzScheduler.java:547] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-05-20 07:52:40.256 [main] INFO  ca.uhn.fhir.jpa.mdm.config.MdmLoader [MdmLoader.java:54] MDM provider registered
+2022-05-20 07:52:40.281 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:208] Creating new FHIR context for FHIR version [R4]
+2022-05-20 07:52:40.337 [main] INFO  ca.uhn.fhir.jpa.mdm.config.MdmLoader [MdmLoader.java:57] MDM subscriptions updated
+2022-05-20 07:52:40.337 [main] INFO  c.u.f.j.s.m.m.s.MatchingQueueSubscriberLoader [MatchingQueueSubscriberLoader.java:56] Subscription Matching Subscriber subscribed to Matching Channel ca.uhn.fhir.jpa.subscription.channel.subscription.BroadcastingSubscribableChannelWrapper with name subscription-matching
+2022-05-20 07:52:40.338 [main] INFO  ca.uhn.fhir.jpa.starter.Application [StartupInfoLogger.java:61] Started Application in 27.43 seconds (JVM running for 28.067)
